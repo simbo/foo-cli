@@ -1,7 +1,7 @@
 {
   "name": "@simbo/foo-cli",
   "version": "0.1.0",
-  "description": "My just-for-fun terminal app.",
+  "description": "My just-for-fun command-line app.",
   "author": "Simon Lepel <simbo@simbo.de> (http://simbo.de)",
   "repository": "github:simbo/foo-cli",
   "homepage": "https://github.com/simbo/foo-cli#readme",
@@ -16,7 +16,7 @@
     "fun"
   ],
   "bin": {
-    "foo": "src/foo.js"
+    "foo": "dist/foo.js"
   },
   "files": [
     "dist/",
