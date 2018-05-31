@@ -1,6 +1,6 @@
 {
   "name": "@simbo/foo-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "My just-for-fun command-line app.",
   "author": "Simon Lepel <simbo@simbo.de> (http://simbo.de)",
   "repository": "github:simbo/foo-cli",
