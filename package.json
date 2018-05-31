@@ -1,0 +1,45 @@
+{
+  "name": "@simbo/foo-cli",
+  "version": "0.1.0",
+  "description": "My just-for-fun terminal app.",
+  "author": "Simon Lepel <simbo@simbo.de> (http://simbo.de)",
+  "repository": "github:simbo/foo-cli",
+  "homepage": "https://github.com/simbo/foo-cli#readme",
+  "bugs": "https://github.com/simbo/foo-cli/issues",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "fun"
+  ],
+  "bin": {
+    "foo": "src/foo.js"
+  },
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "watch": "npm run build -- --watch",
+    "test": "echo \"No tests specified. Skipping...\" && exit 0"
+  },
+  "dependencies": {
+    "ansi-escapes": "^3.1.0",
+    "chalk": "^2.4.1",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49"
+  }
+}
